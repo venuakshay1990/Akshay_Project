@@ -1,0 +1,87 @@
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color:#a9f4fb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(236, 82, 82, 0.458);
+
+}
+.container {
+    background-image: url(DSA.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3c1bf5;
+    font-weight: bold;
+    
+}
+select,option,input[type="number"]
+{
+    width: 100%;
+	padding:8px;
+	margin-bottom:15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+input[type="number"]:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+select:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+button {
+    width: 50%;
+    padding: 10px;
+    background-color:#0783b9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(246, 169, 98);
+}
+.background {
+    background-image: url(djpg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    margin-top: 20px;
+    color: hsl(355, 91%, 47%);
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    color: #1f3cdf;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(210, 74%, 29%);
+    margin-bottom: 20px;
+}
+h3 {
+    margin-top: 20px;
+    color: #2138b6;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    color: #8d3411;
+    text-align: center;
+}
